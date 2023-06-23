@@ -1,0 +1,56 @@
+.textInpContact{
+	width: 100%;
+	min-width: 150px;
+	height: 3rem;
+	margin-top: 0.75rem;
+	border-width: 1px;
+	border-color: rgb(214 211 209);
+	border-radius: 1.75rem;
+	text-indent: 1.4rem;
+	color: rgb(71 85 105);
+}
+
+.textInpContact:focus{
+	outline: 2px solid transparent;
+	border-color: rgb(8 145 178);
+}
+
+.textInpContact:hover{
+	border-color: rgb(165 180 252);
+}
+
+.textInpContact input{
+	margin-right:5px;
+	margin-left:10px;
+	height: 2.5rem;
+	background-color: unset;
+}
+
+.textInpContact input:focus{
+	outline: 2px solid transparent;
+}
+
+.textInpContactMsg{
+	width: 100%;
+	min-width: 150px;
+	height: 12rem;
+	margin-top: 0.75rem;
+	border-width: 1px;
+	border-color: rgb(214 211 209);
+	border-radius: 1.75rem;
+	text-indent: 0.625rem;
+	color: rgb(71 85 105);
+}
+
+.textInpContactMsg:focus{
+	outline: 2px solid transparent;
+	border-color: rgb(8 145 178);
+}
+
+.textInpContactMsg:hover{
+	border-color: rgb(165 180 252);
+}
+
+.PhoneInputCountry{
+	padding-left: 8px!important;
+}

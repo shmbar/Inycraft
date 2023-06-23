@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ContactUs {
+    background: url(../public/images/Others/contactusBG.svg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.btnContact {
+	background: linear-gradient(90deg, #63aaff 5%, #5ec198 100%);
+	letter-spacing: 1px;
+}
+
+.btnContact:hover {
+	background: linear-gradient(90deg, rgb(94, 193, 152) 5%, rgb(99, 170, 255) 100%);
+}
+
+.bannerStyle {
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 0px;
+}
+
+/****** Carousel in services *******/
+
+.carousel .slider-wrapper {
+	width: 50rem!important;
+	padding-top: 65px!important;
+}
+
+.carousel .control-arrow:before,
+.carousel.carousel-slider .control-arrow:before {
+	margin: 0 12px!important;
+	border-top: 15px solid transparent!important;
+	border-bottom: 15px solid transparent!important;
+}
+
+.carousel .control-prev.control-arrow:before {
+	border-right: 24px solid #000!important;
+}
+
+.carousel .control-next.control-arrow:before {
+	border-left: 24px solid #000!important;
+}
+
+
+.control-dots .dot{
+	width: 10px!important;
+	height: 10px!important;
+}
+
+.carousel-slider button{
+	height: fit-content!important;
+    top: 210px!important;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+     background: none!important;
+}
+
+/*************/

@@ -1,0 +1,9 @@
+.rowAffect::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 70px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(248 250 252));
+}

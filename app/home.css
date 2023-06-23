@@ -1,0 +1,122 @@
+.blr {
+	filter: blur(200px);
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	bottom: 0;
+}
+
+.shad {
+	box-shadow: 0px 1px 7px rgb(0 0 0 / 10%), 0px 4px 5px -2px rgb(0 0 0 / 12%),
+		0px 10px 15px -5px rgb(0 0 0 / 20%) !important;
+}
+
+
+
+/**************Features**************/
+.customShadow {
+	box-shadow: -41px 44px 249px 38px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: -41px 44px 249px 38px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: -41px 44px 249px 38px rgba(0, 0, 0, 0.4);
+}
+
+.cloudCircle {
+	width: 7rem;
+	height: 7rem;
+	position: absolute;
+	border-radius: 100%;
+	border: 6px solid #ebebeb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	opacity: 0.8;
+}
+
+.cloudCircle > img {
+	transform: scale(0.7);
+}
+
+.mainCircle > * {
+	position: absolute;
+}
+
+.mainCircle > :nth-child(1) {
+	top: -3rem;
+	left: 6rem;
+}
+
+.mainCircle > :nth-child(2) {
+	left: -3rem;
+	top: 5rem;
+}
+
+.mainCircle > :nth-child(3) {
+	left: 6rem;
+	top: 14rem;
+}
+
+.mainCircle > :nth-child(4) {
+	left: 14rem;
+	top: 5rem;
+}
+
+.blr {
+	filter: blur(150px);
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.circle {
+	position: relative;
+	border-radius: 100%;
+	border: 6px solid #ebebeb;
+	align-items: center;
+	justify-content: center;
+	background: white;
+}
+
+.circle > img {
+	transform: scale(0.7);
+}
+
+.circle1 > img {
+	transform: scale(0.7);
+}
+.circle1 {
+	position: absolute;
+	top: 51%;
+	left: 51%;
+	margin: -51px;
+	border-radius: 100%;
+	background: white;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100%;
+	border: 6px solid #ebebeb;
+	display:flex;
+}
+
+/**************Features**************/
+
+.blogCube{
+	text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box!important;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+
+.passionGoalDiv::after{
+	content: '';
+	position: absolute;
+	left:0;
+	right: 0;
+	height: 180px;
+	transform: skewy(-5deg);
+	margin-top: -95px;
+	background-color: rgb(226 232 240);
+}

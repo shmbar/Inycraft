@@ -1,0 +1,18 @@
+.accordion__content {
+	padding: 0 20px;
+	opacity: 0;
+	transition: all 0.1s;
+	height: 0;
+	margin: 0;
+	margin-top: -10px;
+	/* border: 1px solid #f1f1f1; */
+	border-top: 0;
+	z-index: 0;
+}
+
+.accordion__content_active {
+	height: auto;
+	opacity: 1;
+	padding: 20px;
+	transition: all 0.3s;
+}
