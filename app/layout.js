@@ -27,7 +27,7 @@ export const metadata = {
     siteName: 'Inycraft.com',
     images: [
       {
-        url: 'https://images2.imgbox.com/fa/e3/FOHVJyvq_o.pn',
+        url: 'https://images2.imgbox.com/fa/e3/FOHVJyvq_o.png',
         width: 1200,
         height: 630,
         alt: 'company logo',
