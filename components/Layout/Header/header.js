@@ -46,6 +46,7 @@ const Header = (props) => {
 					src={props.headerView ? IYNlogoWhite : IYNlogo}
 					alt="IYNlogo"
 					width="100"
+					//dfdf
 					className="scale-150 opacity-80"
 					placeholder="blur"
 					blurDataURL={'../../../images/Logo/IYNlogo.png'}
