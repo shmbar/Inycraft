@@ -29,9 +29,8 @@ const Header = (props) => {
 
 	return (
 		<div
-			className={`w-full h-16 mx-auto px-10 xl:px-60 flex items-center fixed bg-white z-10 ${
-				styles.headerTransition
-			} gap-4 ${props.scroll ? 'top-0' : styles.down}
+			className={`w-full h-16 mx-auto px-10 xl:px-60 flex items-center fixed bg-white z-10 ${styles.headerTransition
+				} gap-4 ${props.scroll ? 'top-0' : styles.down}
 			 `} //
 			style={
 				props.headerView
@@ -48,9 +47,8 @@ const Header = (props) => {
 					alt="IYNlogo"
 					width="100"
 					className="scale-150 opacity-80"
-				//	priority
-					 placeholder="blur"
-  					blurDataURL={'../../../images/Logo/IYNlogo.png'}
+					placeholder="blur"
+					blurDataURL={'../../../images/Logo/IYNlogo.png'}
 				/>
 			</div>
 			{!scrnMobile ? ( // not mobile resolution
@@ -63,11 +61,10 @@ const Header = (props) => {
 							transition={{ duration: 0.3, delay: i - 0.9 * i }}
 						>
 							<Link
-								className={`cursor-pointer whitespace-nowrap hover:opacity-60 font-medium ${
-									props.headerView
+								className={`cursor-pointer whitespace-nowrap hover:opacity-60 font-medium ${props.headerView
 										? 'text-white hover:opacity-70'
 										: 'text-inherit'
-								}								`}
+									}								`}
 								href={x.link}
 								key={i}
 							>
@@ -84,11 +81,10 @@ const Header = (props) => {
 						width="35"
 						height="auto"
 						onClick={() => setShowMenusm(!showMenusm)}
-						className={`cursor-pointer ${
-							showMenusm
+						className={`cursor-pointer ${showMenusm
 								? '-rotate-170 duration-1000 pointer-events-none'
 								: 'rotate-180 duration-200'
-						} `}
+							} `}
 					/>
 					{showMenusm && ( //show mobile Menu
 						<div
@@ -97,9 +93,8 @@ const Header = (props) => {
 						>
 							{hdr.map((x, i) => (
 								<Link
-									className={`opacity-80 cursor-pointer text-base text-white p-3 pl-2 grid grid-flow-col ${
-										i !== hdr.length - 1 ? 'border-b border-gray-200' : null
-									}`}
+									className={`opacity-80 cursor-pointer text-base text-white p-3 pl-2 grid grid-flow-col ${i !== hdr.length - 1 ? 'border-b border-gray-200' : null
+										}`}
 									key={i}
 									href={x.link}
 									onClick={() => setShowMenusm(false)}
@@ -112,7 +107,7 @@ const Header = (props) => {
 					)}
 				</div>
 			)}
-			{size?.width>720 && (
+			{size?.width > 720 && (
 				<Link
 					className="bg-red-600 p-1 rounded-3xl px-4 cursor-pointer opacity-80 shad hover:opacity-60"
 					href="/contact"
