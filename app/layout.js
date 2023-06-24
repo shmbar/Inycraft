@@ -9,8 +9,8 @@ const poppins = Poppins({
 });
 
 
- const title= 'Inycraft - Web Applications Developments Services'
- const description= 'We provide the fastest, most modern, affordable and aesthetic web apps development services to make your business grow. Get a free online estimate now!'
+const title = 'Inycraft - Web Applications Developments Services'
+const description = 'We provide the fastest, most modern, affordable and aesthetic web apps development services to make your business grow. Get a free online estimate now!'
 
 
 export const metadata = {
@@ -20,14 +20,14 @@ export const metadata = {
   description: description,
   keywords: ['Software', 'Web Applications'],
   openGraph: {
-    type:'website',
+    type: 'website',
     title: title,
     description: description,
     url: 'https://www.inycraft.com',
     siteName: 'Inycraft.com',
     images: [
       {
-        url: 'https://images2.imgbox.com/fa/e3/FOHVJyvq_o.pn',
+        url: 'https://images2.imgbox.com/fa/e3/FOHVJyvq_o.png',
         width: 1200,
         height: 630,
         alt: 'company logo',

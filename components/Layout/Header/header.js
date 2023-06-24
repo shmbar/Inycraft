@@ -112,7 +112,7 @@ const Header = (props) => {
 					)}
 				</div>
 			)}
-			{!scrnMobile && (
+			{size?.width>720 && (
 				<Link
 					className="bg-red-600 p-1 rounded-3xl px-4 cursor-pointer opacity-80 shad hover:opacity-60"
 					href="/contact"
