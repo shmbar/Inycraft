@@ -50,7 +50,7 @@ export const cmpName='Inycraft';
 
 export const aboutUs = [
 	{
-		ttl: 'Who Are We', src: aboutUs1,
+		ttl: 'Who We Are', src: aboutUs1,
 		txt:
 			'We are a web apps development company, founded in 2018 which comprises of a team of professional web engineers who had a vision to create a software that would cater to and provide technical application solutions for real- world business technical glitches and challenges from web to the mobile. We have a solid development structure with agile methods that ensure value for your users and customers through fast deliverables.',
 	},

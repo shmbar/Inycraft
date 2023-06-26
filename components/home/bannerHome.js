@@ -42,7 +42,7 @@ const Welcome = () => {
 							<br />
 							<div
 								className="w-full justify-center md:justify-start flex"
-								onClick={() => router.push('/Contact/contact', '/contact')}
+								onClick={() => router.push('/contact', '/contact')}
 							>
 								<MotionFrame dr={0.5} dl={1} yIn="2rem">
 									<Btn />
